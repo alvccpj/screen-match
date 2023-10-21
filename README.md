@@ -10,6 +10,8 @@ Essa é uma aplicação em Java OO utilizando a IDE do IntelliJ.
 
 * Polimorfismo
 
+* Abstração
+
 ## Feito por:
 
 ### Álvaro Jordão
