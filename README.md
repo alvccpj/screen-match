@@ -19,7 +19,7 @@ Também utilizei o Postman para fazer HTTP requests através das operações do 
 
 * Abstração
 
-* API
+* API REST
 
 ## Feito por:
 
