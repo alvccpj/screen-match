@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme("O poderoso chefão", 1978);
+        Filme meuFilme = new Filme("O poderoso chefão", 1970);
         meuFilme.setDuracaoEmMinutos(180);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
@@ -46,21 +46,22 @@ public class Main {
         Episodio episodio = new Episodio();
         episodio.setNumero(1);
         episodio.setSerie(lost);
-        episodio.setTotalVisualizacoes(300000);
+        episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
 
-        Filme filmeDoAlvaro = new Filme("Flying high", 2003);
-        filmeDoAlvaro.setAnoDeLancamento(2003);
-        filmeDoAlvaro.avalia(10);
+        var filmeDoPaulo = new Filme("Dogville", 2003);
+        filmeDoPaulo.setDuracaoEmMinutos(200);
+        filmeDoPaulo.avalia(10);
 
         ArrayList<Filme> listaDeFilmes = new ArrayList<>();
-        listaDeFilmes.add(filmeDoAlvaro);
+        listaDeFilmes.add(filmeDoPaulo);
         listaDeFilmes.add(meuFilme);
         listaDeFilmes.add(outroFilme);
-        System.out.println("Tamanho da lista: " +listaDeFilmes.size());
-        System.out.println("Primeiro filme: " +listaDeFilmes.get(0).getNome());
+        System.out.println("Tamanho da lista " + listaDeFilmes.size());
+        System.out.println("Primeiro filme " + listaDeFilmes.get(0).getNome());
         System.out.println(listaDeFilmes);
-        System.out.println("toString do filme: " +listaDeFilmes.get(0).toString());
+        System.out.println("toString do filme " + listaDeFilmes.get(0).toString());
+
 
     }
 }
