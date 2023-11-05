@@ -1,4 +1,4 @@
-## ScreenMatch
+## Screen Match
 
 Essa é uma aplicação em Java OO utilizando a IDE do IntelliJ.
 
